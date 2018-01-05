@@ -1,0 +1,41 @@
+.container {
+  border-style: solid;
+  padding: 20px;
+}
+
+.row {}
+
+.column {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.col-1 {}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-2 {
+  width: 16.67%
+}
+input[type=submit] {
+  background-color: blue;
+  color: white;
+
